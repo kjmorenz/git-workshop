@@ -8,3 +8,5 @@ git diff file.txt shows change
 git diff HEAD~n file.txt - shows difference between most recent save and nth commit ago
 git diff nnnnnnn - shows difference between most recent save and nnnnn commit (see number using log)
 git diff nnnnnnn nnnnnnn - shows diff between two previous commits
+git checkout nnnnnnn file.txt - go back to previous version, puts in as changes in staging area (post-add) and puts 
+in it working directory. Can save by committing, second most recent version is still in the commit before that. 
