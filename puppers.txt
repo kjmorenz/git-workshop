@@ -10,3 +10,4 @@ git diff nnnnnnn - shows difference between most recent save and nnnnn commit (s
 git diff nnnnnnn nnnnnnn - shows diff between two previous commits
 git checkout nnnnnnn file.txt - go back to previous version, puts in as changes in staging area (post-add) and puts 
 in it working directory. Can save by committing, second most recent version is still in the commit before that. 
+git checkout nnnnnnnn - go back to previous commit, "detach head" - to get out, do git checkout master
