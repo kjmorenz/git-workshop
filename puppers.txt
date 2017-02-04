@@ -4,4 +4,4 @@ git status - see what git's doing
 git checkout -- discardchanges.txt
 git reset HEAD takeafileoutofstagingarea,editmoreboforecommit.txt
 git log -shows history --> /searchword - searches for searchword and highlights - n to go next, q to quit
-git diff file.txt shows changes
+git diff file.txt shows change
