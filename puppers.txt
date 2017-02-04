@@ -14,4 +14,4 @@ in it working directory. Can save by committing, second most recent version is s
 git checkout nnnnnnnn - go back to previous commit, "detach head" - to get out, do git checkout master
 nano .gitignore - make a list of things to ignore, *.dat for example ignores anything followed by .dat. You can 
 ignore .gitignore but then other computers using your files (off github) won't know to ignore the files in 
-.gitignore - also has to be called .gitignore. 
+.gitignore - also has to be called .gitignore. - # for comments
