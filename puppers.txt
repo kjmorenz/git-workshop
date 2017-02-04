@@ -2,4 +2,4 @@ git commit -m "write a comment"
 git add addafile.txt
 git status - see what git's doing
 git checkout -- discardchanges.txt
-
+git reset HEAD takeafileoutofstagingarea,editmoreboforecommit.txt
