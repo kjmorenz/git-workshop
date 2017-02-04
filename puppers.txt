@@ -15,3 +15,6 @@ git checkout nnnnnnnn - go back to previous commit, "detach head" - to get out, 
 nano .gitignore - make a list of things to ignore, *.dat for example ignores anything followed by .dat. You can 
 ignore .gitignore but then other computers using your files (off github) won't know to ignore the files in 
 .gitignore - also has to be called .gitignore. - # for comments
+git remote add origin repositorylinkfromgithub to make repository connect
+git remote -v tells your permissions
+git push or git push origin master - push local changes to origin repository master copy
