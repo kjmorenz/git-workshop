@@ -3,7 +3,8 @@ git add addafile.txt
 git status - see what git's doing
 git checkout -- discardchanges.txt
 git reset HEAD takeafileoutofstagingarea,editmoreboforecommit.txt Head is just where you are currently in history
-git log -shows history --> /searchword - searches for searchword and highlights - n to go next, q to quit
+git log -shows history --> /searchword - searches for searchword and highlights - n to go next, q to quit. add 
+--oneline in the initial one to put it in one line for each commit
 git diff file.txt shows change
 git diff HEAD~n file.txt - shows difference between most recent save and nth commit ago
 git diff nnnnnnn - shows difference between most recent save and nnnnn commit (see number using log)
